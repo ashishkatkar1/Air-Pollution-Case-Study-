@@ -1,0 +1,28 @@
+jwt:
+  secret: secrectkey123
+
+server:
+    port: 8081         
+    
+    
+spring:
+    application:
+           name: JwtAuthService
+    data:
+     mongodb:
+        uri: mongodb+srv://ashishkatkar1:RK5IbAHMmuXZqx1F@cluster0.q9seg.mongodb.net/AirPollutionService?retryWrites=true&w=majority
+
+eureka:
+     client:
+          service-url:
+                   defaultZone: http://localhost:8761/eureka/          
+                          
+logging:
+  file: 
+    path: /my-logs/app.log
+    name: log.txt  
+    
+data:
+   exception:
+          incmsg: Invalid Credentials!!
+            

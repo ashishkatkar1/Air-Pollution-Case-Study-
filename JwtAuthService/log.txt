@@ -1,0 +1,289 @@
+2022-05-18 06:37:42.022  INFO 10072 --- [restartedMain] com.cg.JwtAuthService                    : Starting JwtAuthService using Java 17.0.2 on INLEN8520050966 with PID 10072 (C:\Users\asdattat\Downloads\New folder\JwtAuthService\target\classes started by asdattat in C:\Users\asdattat\Downloads\New folder\JwtAuthService)
+2022-05-18 06:37:42.028  INFO 10072 --- [restartedMain] com.cg.JwtAuthService                    : No active profile set, falling back to 1 default profile: "default"
+2022-05-18 06:37:42.081  INFO 10072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-18 06:37:42.081  INFO 10072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-18 06:37:42.765  INFO 10072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-05-18 06:37:42.920  INFO 10072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 149 ms. Found 1 MongoDB repository interfaces.
+2022-05-18 06:37:43.178  INFO 10072 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d84a2eb7-4ac2-3b2d-93d7-28a6cd681454
+2022-05-18 06:37:43.616  INFO 10072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-18 06:37:43.622  INFO 10072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-18 06:37:43.623  INFO 10072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-18 06:37:43.701  INFO 10072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-18 06:37:43.702  INFO 10072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1602 ms
+2022-05-18 06:37:44.020  INFO 10072 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=cluster0.q9seg.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-sb2s3z-shard-0'}
+2022-05-18 06:37:44.101  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-srv-cluster0.q9seg.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-01.q9seg.mongodb.net:27017 to client view of cluster
+2022-05-18 06:37:44.127  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-srv-cluster0.q9seg.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-00.q9seg.mongodb.net:27017 to client view of cluster
+2022-05-18 06:37:44.129  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-srv-cluster0.q9seg.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server cluster0-shard-00-02.q9seg.mongodb.net:27017 to client view of cluster
+2022-05-18 06:37:44.272  WARN 10072 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-18 06:37:44.328  WARN 10072 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-05-18 06:37:44.495  WARN 10072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-05-18 06:37:44.852  INFO 10072 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7abd07c, org.springframework.security.web.context.SecurityContextPersistenceFilter@714ec7e2, org.springframework.security.web.header.HeaderWriterFilter@4e4c3202, org.springframework.web.filter.CorsFilter@3fd7ab9e, org.springframework.security.web.authentication.logout.LogoutFilter@2969a8e6, com.cg.filter.JWTFilter@2f6a15ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@eacbdbd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@613239d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7646039, org.springframework.security.web.session.SessionManagementFilter@22980d55, org.springframework.security.web.access.ExceptionTranslationFilter@5877d89a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@347a6627]
+2022-05-18 06:37:45.153  INFO 10072 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-05-18 06:37:45.208  INFO 10072 --- [cluster-rtt-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-01.q9seg.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:67074}] to cluster0-shard-00-01.q9seg.mongodb.net:27017
+2022-05-18 06:37:45.208  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-00.q9seg.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:55061}] to cluster0-shard-00-00.q9seg.mongodb.net:27017
+2022-05-18 06:37:45.208  INFO 10072 --- [cluster-rtt-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-00.q9seg.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:55061}] to cluster0-shard-00-00.q9seg.mongodb.net:27017
+2022-05-18 06:37:45.208  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-00.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-00.q9seg.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=632281500, setName='atlas-sb2s3z-shard-0', canonicalAddress=cluster0-shard-00-00.q9seg.mongodb.net:27017, hosts=[cluster0-shard-00-01.q9seg.mongodb.net:27017, cluster0-shard-00-00.q9seg.mongodb.net:27017, cluster0-shard-00-02.q9seg.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.q9seg.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=11, topologyVersion=TopologyVersion{processId=628286dea20c2197006bb2d9, counter=18}, lastWriteDate=Wed May 18 06:37:45 IST 2022, lastUpdateTimeNanos=3934261070478000}
+2022-05-18 06:37:45.220  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-01.q9seg.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:67376}] to cluster0-shard-00-01.q9seg.mongodb.net:27017
+2022-05-18 06:37:45.220  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-01.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-01.q9seg.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=524834200, setName='atlas-sb2s3z-shard-0', canonicalAddress=cluster0-shard-00-01.q9seg.mongodb.net:27017, hosts=[cluster0-shard-00-01.q9seg.mongodb.net:27017, cluster0-shard-00-00.q9seg.mongodb.net:27017, cluster0-shard-00-02.q9seg.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.q9seg.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000157, setVersion=11, topologyVersion=TopologyVersion{processId=628288218c7b984fb4a7dfd0, counter=16}, lastWriteDate=Wed May 18 06:37:45 IST 2022, lastUpdateTimeNanos=3934261083404200}
+2022-05-18 06:37:45.220  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-01.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff0000000000000157 from replica set primary cluster0-shard-00-01.q9seg.mongodb.net:27017
+2022-05-18 06:37:45.220  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-01.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 11 from replica set primary cluster0-shard-00-01.q9seg.mongodb.net:27017
+2022-05-18 06:37:45.220  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-01.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary cluster0-shard-00-01.q9seg.mongodb.net:27017
+2022-05-18 06:37:45.244  INFO 10072 --- [cluster-rtt-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-02.q9seg.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:926961}] to cluster0-shard-00-02.q9seg.mongodb.net:27017
+2022-05-18 06:37:45.259  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-02.q9seg.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:926961}] to cluster0-shard-00-02.q9seg.mongodb.net:27017
+2022-05-18 06:37:45.259  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-02.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-02.q9seg.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=550680600, setName='atlas-sb2s3z-shard-0', canonicalAddress=cluster0-shard-00-02.q9seg.mongodb.net:27017, hosts=[cluster0-shard-00-01.q9seg.mongodb.net:27017, cluster0-shard-00-00.q9seg.mongodb.net:27017, cluster0-shard-00-02.q9seg.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-01.q9seg.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=11, topologyVersion=TopologyVersion{processId=6268299c50ac436de2e82690, counter=45}, lastWriteDate=Wed May 18 06:37:45 IST 2022, lastUpdateTimeNanos=3934261122378100}
+2022-05-18 06:37:45.311  WARN 10072 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-18 06:37:45.368  INFO 10072 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-05-18 06:37:45.420  INFO 10072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-05-18 06:37:45.425  INFO 10072 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-18 06:37:45.458  INFO 10072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-05-18 06:37:45.460  INFO 10072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-05-18 06:37:45.460  INFO 10072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-05-18 06:37:45.460  INFO 10072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-05-18 06:37:45.460  INFO 10072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-05-18 06:37:45.460  INFO 10072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-05-18 06:37:45.460  INFO 10072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-05-18 06:37:45.737  INFO 10072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-05-18 06:37:45.743  INFO 10072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-05-18 06:37:45.748  INFO 10072 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-05-18 06:37:45.762  INFO 10072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1652836065762 with initial instances count: 0
+2022-05-18 06:37:45.763  INFO 10072 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application JWTAUTHSERVICE with eureka with status UP
+2022-05-18 06:37:45.763  INFO 10072 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1652836065763, current=UP, previous=STARTING]
+2022-05-18 06:37:45.765  INFO 10072 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_JWTAUTHSERVICE/INLEN8520050966.corp.capgemini.com:JwtAuthService:8081: registering service...
+2022-05-18 06:37:45.790  INFO 10072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-18 06:37:45.791  INFO 10072 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2022-05-18 06:37:45.859  INFO 10072 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_JWTAUTHSERVICE/INLEN8520050966.corp.capgemini.com:JwtAuthService:8081 - registration status: 204
+2022-05-18 06:37:45.912  INFO 10072 --- [restartedMain] com.cg.JwtAuthService                    : Started JwtAuthService in 4.416 seconds (JVM running for 5.24)
+2022-05-18 06:38:15.750  INFO 10072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-05-18 06:38:15.751  INFO 10072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-05-18 06:38:15.752  INFO 10072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-05-18 06:38:15.752  INFO 10072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-05-18 06:38:15.752  INFO 10072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-05-18 06:38:15.752  INFO 10072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-05-18 06:38:15.752  INFO 10072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-05-18 06:38:15.764  INFO 10072 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-05-18 06:42:45.456  INFO 10072 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-05-18 08:40:29.637  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-02.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-02.q9seg.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:707) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:579) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:415) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:374) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:216) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:133) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:718) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:576) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 5 common frames omitted
+
+2022-05-18 08:40:29.637  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-01.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-01.q9seg.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:707) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:579) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:415) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:374) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:216) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:133) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:718) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:576) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 5 common frames omitted
+
+2022-05-18 08:40:29.641  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-02.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-02.q9seg.mongodb.net:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:180) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299) ~[na:na]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 4 common frames omitted
+
+2022-05-18 08:40:29.659  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-00.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-00.q9seg.mongodb.net:27017
+
+com.mongodb.MongoSocketReadException: Exception receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:707) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:579) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:415) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:374) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:216) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Socket is closed
+	at java.base/java.net.Socket.setSoTimeout(Socket.java:1218) ~[na:na]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.setSoTimeout(BaseSSLSocketImpl.java:638) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.setSoTimeout(SSLSocketImpl.java:74) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:133) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:718) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:576) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 5 common frames omitted
+
+2022-05-18 08:40:29.660  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-01.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-01.q9seg.mongodb.net:27017
+
+com.mongodb.MongoSocketException: No such host is known (cluster0-shard-00-01.q9seg.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:180) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.UnknownHostException: No such host is known (cluster0-shard-00-01.q9seg.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 6 common frames omitted
+
+2022-05-18 08:40:29.695  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-00.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-00.q9seg.mongodb.net:27017
+
+com.mongodb.MongoSocketException: No such host is known (cluster0-shard-00-00.q9seg.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:180) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.UnknownHostException: No such host is known (cluster0-shard-00-00.q9seg.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 6 common frames omitted
+
+2022-05-18 08:40:39.681  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-02.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-02.q9seg.mongodb.net:27017
+
+com.mongodb.MongoSocketException: No such host is known (cluster0-shard-00-02.q9seg.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:180) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.UnknownHostException: No such host is known (cluster0-shard-00-02.q9seg.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[na:na]
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933) ~[na:na]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519) ~[na:na]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 6 common frames omitted
+
+2022-05-18 08:41:20.131  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-01.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-01.q9seg.mongodb.net:27017
+
+com.mongodb.MongoSocketException: cluster0-shard-00-01.q9seg.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:180) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.UnknownHostException: cluster0-shard-00-01.q9seg.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 6 common frames omitted
+
+2022-05-18 08:41:30.146  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-00.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-00.q9seg.mongodb.net:27017
+
+com.mongodb.MongoSocketException: cluster0-shard-00-00.q9seg.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:180) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.UnknownHostException: cluster0-shard-00-00.q9seg.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367) ~[na:na]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301) ~[na:na]
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 6 common frames omitted
+
+2022-05-18 08:41:40.700  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-00.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-00.q9seg.mongodb.net:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:180) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Software caused connection abort: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299) ~[na:na]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 4 common frames omitted
+
+2022-05-18 08:41:40.700  INFO 10072 --- [cluster-ClusterId{value='628446e058e66e29b21cf88c', description='null'}-cluster0-shard-00-02.q9seg.mongodb.net:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server cluster0-shard-00-02.q9seg.mongodb.net:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:180) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:152) ~[mongodb-driver-core-4.4.2.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.net.SocketException: Software caused connection abort: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299) ~[na:na]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79) ~[mongodb-driver-core-4.4.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65) ~[mongodb-driver-core-4.4.2.jar:na]
+	... 4 common frames omitted
+
+2022-05-18 08:41:42.707  INFO 10072 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-05-18 08:41:42.708  INFO 10072 --- [RMI TCP Connection(16)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application JWTAUTHSERVICE with eureka with status DOWN
+2022-05-18 08:41:42.708  INFO 10072 --- [RMI TCP Connection(16)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1652843502708, current=DOWN, previous=UP]
+2022-05-18 08:41:42.709  INFO 10072 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_JWTAUTHSERVICE/INLEN8520050966.corp.capgemini.com:JwtAuthService:8081: registering service...
+2022-05-18 08:41:42.717  INFO 10072 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_JWTAUTHSERVICE/INLEN8520050966.corp.capgemini.com:JwtAuthService:8081 - registration status: 204
+2022-05-18 08:41:45.274  INFO 10072 --- [RMI TCP Connection(16)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
