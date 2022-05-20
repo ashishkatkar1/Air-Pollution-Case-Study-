@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "data.exception.data-exists",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.data-exists'"
+  },
+  {
+    "name": "data.exception.dataNotFound",
+    "type": "java.lang.String",
+    "description": "A description for 'data.exception.dataNotFound'"
+  },
+  {
+    "name": "ureka.client.service-url.default-zone",
+    "type": "java.lang.String",
+    "description": "A description for 'ureka.client.service-url.default-zone'"
+  },
+  {
+    "name": "jwt.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.secret'"
+  }
+]}
